@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import davies_bouldin_score, silhouette_score, calinski_harabasz_score
 
 # Load Dataset
-file_path = 'Dataset-terbaru.csv'  # Ganti dengan path file Anda
+file_path = './Dataset-terbaru.csv'
 dataset = pd.read_csv(file_path)
 
 # Data Cleaning
